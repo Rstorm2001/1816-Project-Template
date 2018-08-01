@@ -4,7 +4,7 @@ package frc.team1816.robot.subsystems;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 public class ExampleSubsystem extends Subsystem {
-    public ExampleSubsystem(int leftMaster, int leftSlave, int rightMaster, int rightSlave) {
+    public ExampleSubsystem() {
     }
 
     // Put methods for controlling this subsystem

@@ -1,10 +1,10 @@
 package frc.team1816.robot;
 
-import frc.team1816.robot.subsystems.ExampleSubsystem;
+import frc.team1816.robot.subsystems.Drivetrain;
 
 public class Components {
     private static Components instance;
-    private ExampleSubsystem drivetrain;
+    public Drivetrain drivetrain;
 
     //Drivetrain motor id numbers
     private static final int LEFT_MASTER = 0;
@@ -13,7 +13,8 @@ public class Components {
     private static final int RIGHT_SLAVE = 3;
 
     public Components(){
-        this.drivetrain = new ExampleSubsystem(LEFT_MASTER, LEFT_SLAVE, RIGHT_MASTER, RIGHT_SLAVE);
+
+        this.drivetrain = new Drivetrain(LEFT_MASTER, LEFT_SLAVE, RIGHT_MASTER, RIGHT_SLAVE);
     }
 
     public static Components getInstance(){
