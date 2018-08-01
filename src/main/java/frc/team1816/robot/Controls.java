@@ -17,7 +17,7 @@ public class Controls {
     public Controls() {
         ArrayList<GamepadFilter>gamepadfilter1 = new ArrayList<>();
         gamepadfilter1.add(new DeadzoneFilter(0.5));
-        gamepadfilter1.add(new PowerFilter(2));
+        gamepadfilter1.add(new PowerFilter(1));
 
 
     }
